@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: "poppins";
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/************************* HEADER SECTION ***********************/
+
+.headerSection{
+    height: 70vh;
+    width: 100vw;
+    margin: 0.75rem;
+    background-color: #7030CC;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* ---------    HEADER SECTION  -->> Navbar Section     ---------*/
+
+nav {
+  width: 75vw;
+  height: 12vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+
+.nav-logo{
+    height: 46px;
+    width: 130px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 35vw;
+  margin-left: 10vw;
+}
+
+.nav-button {
+  padding: 0.5rem 1.5rem;
+  background-color: #37e1ff;
+  border: 1px solid #c9c6c6e2;
+  color: #ffffff;
+}
+
+.hamburger{
+    display: none;
+    height: 40px;
+    width: 40px;
+    fill: #ffffff;
+}
+
+/*   ----[[[[    Navbar Section Responsive   ]]]]-----   */
+/* @media screen and (max-width: 2500px){
+
+    nav {
+  width: 90vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-logo{
+    height: 40px;
+    width: 100px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9em;
+    width: 40vw;
+
+  }
+  
+  .hamburger{
+    display: none;
+}
+  
+}
+@media screen and (max-width: 1024px){
+
+    nav {
+  width: 90vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-logo{
+    height: 40px;
+    width: 100px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9em;
+    width: 40vw;
+
+  }
+  
+  .hamburger{
+    display: none;
+}
+  
+}
+
+@media screen and (max-width: 940px){
+
+    nav {
+  width: 90vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-logo{
+    height: 30px;
+    width: 80px;
+}
+
+.nav-list {
+    display: none;
+}  
+
+  .nav-button {
+    font-size: 0.6em;
+     padding: 0.4rem 1.2rem;
+    
+  }
+  .nav-right{
+    display: flex;
+    gap: 1em;
+  }
+
+  .hamburger{
+    display: block;
+}
+  
+  
+}
+
+@media screen and (max-width: 500px){
+
+    nav {
+  width: 90vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-logo{
+    height: 30px;
+    width: 80px;
+}
+
+.nav-list {
+   display: none;
+  }
+
+  .nav-button {
+    font-size: 0.6em;
+     padding: 0.4rem 1.2rem;
+    
+  }
+
+  .nav-right{
+    display: flex;
+    gap: 1em;
+  }
+  
+  .hamburger{
+    display: block;
+}
+  
+  
+} */
+
+
+/* ---------    HEADER SECTION  -->> Header Content Section     ---------*/
+
+.header-content{
+    width: 85vw;
+    height: 45vh;
+    margin-left:11rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5rem;
+   
+}
+
+                            /* header left section */
+.header-left{
+    order: 1;
+    padding: 0vh 0vw;
+}
+
+.header_img{
+    width: 50vw;
+    height: 55vh;
+    
+}
+
+.header-right{
+    order: 0;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    color: #ffffff;
+
+}
+
+.header-heading{
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.header-description{
+    font-size: 0.9rem;
+    color: #c8c8c8;
+}
+
+
+/*   ----[[[[    Header Content Section Responsive   ]]]]-----   */
+
+
+
+/************************* MAIN CONTENT SECTION ***********************/
+
+.content-container{
+    /* background-color: rgb(175, 190, 129); */
+    margin: 7vh 9vw;
+}
+
+
+/* ---------   MAIN CONTENT SECTION  -->> Section-2 ( Stats )   ---------*/
+.section2{
+    height: 60vh;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 4rem;
+}
+
+.section2img{
+    width: 40vw;
+    height: 55vh;
+    
+}
+
+.section2_right{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.inner_sec2_right{
+    display: flex;
+    gap: 0.5rem;
+}
+
+img[alt='share']{
+    display: inline;
+    width: 1.5vw;
+    height: 2vh;
+    padding: 0.25rem;
+}
+/* ---------   MAIN CONTENT SECTION  -->> Section-3 ( Services they providing )   ---------*/
+
+.section3{
+    width: 75vw;
+    height: 45vh;
+    margin: auto;
+    margin-top: 5rem;
+    /* background-color: rgb(95, 138, 137); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 3.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.section3_part2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.card{
+    height: 28vh;
+    width: 14vw;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px 0px #2928287e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+img[alt='card_icon']{
+
+    width: 3vw;
+    padding: 0.25rem;
+
+}
+
+
+.bg_circle{
+    height: 9.2vh;
+    width: 6vw;
+    border-radius: 50%;
+    background-color: #f8cdcdce;
+}
+
+.bg_circle>div{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.card div p{
+    font-size: 0.7rem;
+}
+
+.card_active{
+    padding: 0.7rem;
+}
+
+.card_active:hover{
+    background-color: #7030CC;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 0.7rem;
+    
+}
+
+.circle2{
+    background-color: #f8e1cdce;
+}
+
+.circle3{
+    background-color: #d8f0f9ce;
+}
+
+.circle4{
+    background-color: #fbd9efce;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
